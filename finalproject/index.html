@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Endangered Species</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Critically endangered species" />
+    <meta name="keywords" content="critically, endangered, species, elephant, rhino, gorilla, Africa" />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet" />
+    <link href="css/brands.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/index.css" media="all"/>
+    <link rel="stylesheet" href="css/print.css" media="print"/>
+    
+</head>
+<body>
+<header style="background-image: url('media/elephant-rhino.jpg'); background-position-x: left; background-repeat: no-repeat; background-size:cover; ">
+ 	<h1>Critically Endangered Species Around the World</h1>
+
+ </header>   
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="https://www.worldwildlife.org/species/african-forest-elephant">African Forest Elephant<br> Location: Congo</a>
+	<a href="https://www.worldwildlife.org/species/black-rhino">Black Rhino<br> Location: East Africa</a>
+	<a href="https://www.worldwildlife.org/species/eastern-lowland-gorilla">Eastern Lowland Gorilla <br>Location: Congo</a>
+	<a href="https://www.worldwildlife.org/species/amur-leopard">Amur Leopard <br> Location: Amur-Heilong</a>
+	<a href="https://www.worldwildlife.org/species/sumatran-elephant">Sumatran Elephant <br> Location: Borneo and Sumatra</a>
+	<a href="https://www.worldwildlife.org/species/javan-rhino">Javan Rhino <br>Location: Ujung Kulon National Park</a>
+	<a href="https://wwf.panda.org/discover/our_focus/biodiversity/biodiversity/">How many animals<br>are extinct?</a>
+    </div> 
+    <div>
+        <span style="font-size: 30px;cursor: pointer" onclick="openNav()">&#9776;More Information</span>
+    </div>
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.width = "250px";
+        }
+        
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.width = "0px";
+        }
+    </script>
+<article class=" grid-container">    
+<section class="grid-item">
+	<img src="media/african-elephant.jpg" alt="African elephant">
+    <br>
+	<img src="media/rhino.jpg"  alt="rhino">
+	<br>
+    <img src="media/gorilla.jpg" alt="gorilla"> 
+</section>
+<section class="grid-item" id="content" style="background-image: url('media/elephant-rhino.jpg'); width: auto; height: auto; padding-left:100px; border:double black; ">
+	<p>Human activities have led to the decline of many endangered species. Habitat destruction is one of the leading causes of species’ decline. As human populations continue to grow and urbanise, natural habitats are being destroyed and fragmented. 
+        This results in the loss of food, shelter, and breeding sites for many species. </p>
+    <h3>Why should we care?
+    </h3> 
+    <p><cite>"Protecting endangered species is crucial for the preservation of biodiversity and the maintenance of healthy ecosystems. These species play essential roles in maintaining the 
+        balance of their ecosystems and provide valuable resources for human populations. However, human activities such as habitat destruction, over-exploitation, and pollution have led to the decline of many species."</cite><br>
+        <button class="inputButton" type="reset" onclick="location.href='https://www.green.earth/blog/why-should-endangered-species-be-protected#:~:text=Protecting%20endangered%20species%20is%20crucial,valuable%20resources%20for%20human%20populations.'">
+              Learn More
+        </button> 
+</section>
+<aside  class="grid-item">
+	<img src="media/leopard.jpg" alt="leopard">
+	<img src="media/indian-rhino.jpg"  alt="indian rhino">
+    <p>
+    <h3 style="color:black;">Check under "More Information" to learn about these critically endangered species
+    and what you can do to help.</h3>
+    </p>
+</aside>
+<footer class="grid-item">
+    <div class="icon-bar">
+        <p>
+        <a href="https://www.facebook.com/worldwildlifefund"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/wwf"><i class="fa-brands fa-twitter"></i></i></a>
+        <a href="https://www.youtube.com/user/WWF"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/World_Wildlife/"><i class="fa-brands fa-instagram"></i></a></p>
+        <p style="text-align:right;"> <small>&copy; Makayla Konefke, 2024</small></p>
+    </div>
+</footer>
+</article>		
+</body>
+</html>
